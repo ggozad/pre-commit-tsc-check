@@ -1,0 +1,9 @@
+- id: tsc-check
+  name: tsc-check
+  entry: npx tsc
+  language: node
+  files: \.(ts|tsx)$
+  args: [--noEmit]
+  additional_dependencies: [typescript@^4.0.0]
+  # Use additional_dependencies to install the actual node package
+  minimum_pre_commit_version: 0.12.0
