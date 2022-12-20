@@ -1,5 +1,5 @@
 {
   "name": "tsc-check",
   "description": "pre-commit hook to check typescript files",
-  "version": "0.1.0"
+  "version": "0.2.0"
 }

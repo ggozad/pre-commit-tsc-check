@@ -1,6 +1,6 @@
 - id: tsc-check
   name: tsc-check
-  entry: npx tsc
+  entry: tsc
   language: node
   files: \.(ts|tsx)$
   args: [--noEmit]
